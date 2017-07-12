@@ -8,7 +8,7 @@
 
     <!-- Meta -->
     <meta charset="utf-8">
-    <title>Dairy Box ♥ A Scotch/Box fork for Ludum Dare</title>
+    <title>Dairy Box / Butter Box ♥ A Scotch/Box fork for Ludum Dare</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -49,7 +49,7 @@
         }
         #topper {
             margin-top: 51px;
-            height: 450px;
+            height: 300px;
             text-align: center;
         }
         #topper svg {
@@ -127,25 +127,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Dairy Box (based on Scotch/Box)</a>
+                <a class="navbar-brand" href="/">Dairy Box / Butter Box (based on Scotch/Box)</a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="http://box.scotch.io">Docs</a></li>
                     <li><a href="http://github.com/scotch-io/scotch-box">Scotch/Box on GitHub</a></li>
+                    <li><a href="http://github.com/ludumdare/dairybox">DairyBox on GitHub (toolchain)</a></li>
                     <li><a href="http://github.com/povrazor/butterbox">ButterBox on GitHub (standalone)</a></li>
-                    <li><a href="http://github.com/ludumdare/dairybox">DairyBox on GitHub</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
     <section id="topper" style="background-image: url('data:image/svg+xml;base64,<?php echo base64_encode('<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><defs id="defs4"><filter color-interpolation-filters="sRGB" id="filter3115"><feTurbulence type="fractalNoise" numOctaves="1" baseFrequency="0.9" id="feTurbulence3117"/><feColorMatrix result="result5" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -4.15 " id="feColorMatrix3119"/><feComposite in2="result5" operator="in" in="SourceGraphic" result="result6" id="feComposite3121"/><feMorphology in="result6" operator="dilate" radius="1" result="result3" id="feMorphology3123"/></filter></defs><rect width="100%" height="100%" x="0" y="0" id="rect2985" fill="#000000"/><rect width="100%" height="100%" x="0" y="0" id="rect2985" style="fill:#FF4343;filter:url(#filter3115)"/></svg>'); ?>');">
-        <h1>Welcome to<br>Dairy Box <i class="fa fa-heart"></i></h1>
+        <h1>Welcome to<br>Dairy Box / Butter Box <i class="fa fa-birthday-cake"></i></h1>
     </section>
 
     <article>
         <div class="container">
+        	<div style="font-size: 1.4em; margin-bottom: 2.5em; text-align: center">
+	        	<p>DairyBox / ButterBox is a modified fork of the Scotch/Box 2.5 Vagrant box, created for the development of the open source Ludum Dare family of websites.</p>
+	        	<p>It can be used for other projects, but it is taylored for our needs (PHP, MariaDB).</p>
+			</div>
 
             <div class="row content">
                 <div class="col-md-6 col-md-offset-3 wrap">
