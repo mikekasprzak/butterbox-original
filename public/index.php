@@ -148,7 +148,7 @@
         <div class="container">
         	<div style="font-size: 1.4em; margin-bottom: 2.5em; text-align: center">
 	        	<p>DairyBox / ButterBox is a modified fork of the Scotch/Box 2.5 Vagrant box, created for the development of the open source Ludum Dare family of websites.</p>
-	        	<p>It can be used for other projects, but it is taylored for our needs (PHP, MariaDB).</p>
+	        	<p>If you're seeing this page, this is Butter Box, the standalone (toolchain free) version. It can be used for other projects, but it is taylored for our needs (PHP, MariaDB).</p>
 			</div>
 
             <div class="row content">
@@ -491,7 +491,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="http://box.scotch.io">Scotch Box</a> by <a href="http://scotch.io">scotch.io</a>.
+                    Based on <a href="http://box.scotch.io">Scotch Box</a> by <a href="http://scotch.io">scotch.io</a>.
                 </div>
             </div>
         </div>
