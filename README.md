@@ -11,7 +11,9 @@ ButterBox's differences includes:
 * ImageMagick
 * other image optimization tools
 
-Since at its core it's just an upgrade Scotch/Box, the remainder of the Scotch/Box documentation is included below.
+In general ButterBox should work as a drop-in replacement for Scotch/Box 2.5, assuming your PHP code didn't break moving to 7.x. Logins and database names are still the same (`vagrant` and `scotchbox`).
+
+Since at its core it's just an upgraded Scotch/Box, the remainder of the Scotch/Box documentation is included below.
 
 ---
 
