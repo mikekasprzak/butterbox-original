@@ -1,6 +1,6 @@
 ButterBox
 ==========
-ButterBox is a customized fork of Scotch/Box 2.5. The box (**pov/dairy**) exists for use with [DairyBox](/ludumdare/dairybox), but it's still a mostly stock box. This project doubles as my test-suite, but should be as functional as Scotch/Box.
+ButterBox is a customized fork of Scotch/Box 2.5. The box ([**pov/dairy**](https://app.vagrantup.com/pov/boxes/dairy)) exists for use with [DairyBox](/ludumdare/dairybox), but it's still a mostly stock box. This project doubles as my test-suite, but should be as functional as Scotch/Box.
 
 ButterBox's differences includes:
 
