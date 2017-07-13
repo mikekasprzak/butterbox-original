@@ -7,9 +7,10 @@ ButterBox's differences includes:
 * Ubuntu 14.04 with updates preinstalled (July 12th, 2017 instead of updates from back in 2016)
 * PHP 7.1 with APCu
 * MariaDB 10.1 (instead of MySQL)
-* FFmpeg
-* ImageMagick
+* FFmpeg (mainline)
+* ImageMagick (mainline)
 * other image optimization tools
+* IP is http://192.168.48.10 (not 192.168.33.10)
 
 In general ButterBox should work as a drop-in replacement for Scotch/Box 2.5, assuming your PHP code didn't break moving to 7.x. Logins and database names are still the same (`vagrant` and `scotchbox`).
 
